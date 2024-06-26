@@ -1,5 +1,5 @@
 /*
- * Copyright © 2014 - 2018 | Wurst-Imperium | All rights reserved.
+ * Copyright Â© 2014 - 2018 | Wurst-Imperium | All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -27,7 +27,7 @@ public abstract class Feature
 		getClass().isAnnotationPresent(HelpPage.class)
 			? getClass().getAnnotation(HelpPage.class).value() : "";
 	private final String searchTags =
-		getClass().isAnnotationPresent(SearchTags.class) ? String.join("§",
+		getClass().isAnnotationPresent(SearchTags.class) ? String.join("Â§",
 			getClass().getAnnotation(SearchTags.class).value()) : "";
 	
 	public abstract String getName();

@@ -1,5 +1,5 @@
 /*
- * Copyright © 2014 - 2018 | Wurst-Imperium | All rights reserved.
+ * Copyright Â© 2014 - 2018 | Wurst-Imperium | All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -66,8 +66,8 @@ public final class ChestEspMod extends Mod implements UpdateListener,
 	public ChestEspMod()
 	{
 		super("ChestESP",
-			"Highlights nearby chests.\n" + "§agreen§r - normal chests\n"
-				+ "§6orange§r - trapped chests\n" + "§bcyan§r - ender chests\n"
+			"Highlights nearby chests.\n" + "Â§agreenÂ§r - normal chests\n"
+				+ "Â§6orangeÂ§r - trapped chests\n" + "Â§bcyanÂ§r - ender chests\n"
 				+ "[  ] - empty\n" + "[X] - not empty");
 		setCategory(Category.RENDER);
 		addSetting(tracers);

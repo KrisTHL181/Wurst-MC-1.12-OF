@@ -1,5 +1,5 @@
 /*
- * Copyright ฉ 2014 - 2018 | Wurst-Imperium | All rights reserved.
+ * Copyright ยฉ 2014 - 2018 | Wurst-Imperium | All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -253,10 +253,10 @@ public class SpamProcessor
 				log("** Processed tag:\n" + spam);
 			}
 			log("### Processing variables...");
-			while(spam.contains("ง"))
+			while(spam.contains("ยง"))
 			{
 				log("** Processing variable...");
-				int varStart = spam.indexOf("ง");
+				int varStart = spam.indexOf("ยง");
 				log("VarStart: " + varStart);
 				int varLine =
 					MiscUtils.countMatches(spam.substring(0, varStart), "\n");
@@ -282,7 +282,7 @@ public class SpamProcessor
 				if(varReplacement == null)
 					throw new InvalidVariableException(varName, varLine);
 				if(test)
-					spam = spam.substring(0, varStart) + var.replace("ง", "*")
+					spam = spam.substring(0, varStart) + var.replace("ยง", "*")
 						+ spam.substring(varEnd, spam.length());
 				else
 					spam = spam.substring(0, varStart) + varReplacement

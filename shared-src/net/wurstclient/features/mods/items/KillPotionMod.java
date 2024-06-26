@@ -1,5 +1,5 @@
 /*
- * Copyright © 2014 - 2018 | Wurst-Imperium | All rights reserved.
+ * Copyright Â© 2014 - 2018 | Wurst-Imperium | All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -49,7 +49,7 @@ public final class KillPotionMod extends Mod
 		NBTTagList effects = new NBTTagList();
 		effects.appendTag(effect);
 		stack.setTagInfo("CustomPotionEffects", effects);
-		stack.setStackDisplayName("§rSplash Potion of §4§lDEATH");
+		stack.setStackDisplayName("Â§rSplash Potion of Â§4Â§lDEATH");
 		
 		// give potion
 		if(InventoryUtils.placeStackInHotbar(stack))

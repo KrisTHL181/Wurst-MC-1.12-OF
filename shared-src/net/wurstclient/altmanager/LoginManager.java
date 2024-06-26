@@ -1,5 +1,5 @@
 /*
- * Copyright © 2014 - 2018 | Wurst-Imperium | All rights reserved.
+ * Copyright Â© 2014 - 2018 | Wurst-Imperium | All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -40,20 +40,20 @@ public final class LoginManager
 			
 		}catch(AuthenticationUnavailableException e)
 		{
-			return "§4§lCannot contact authentication server!";
+			return "Â§4Â§lCannot contact authentication server!";
 			
 		}catch(AuthenticationException e)
 		{
 			e.printStackTrace();
 			if(e.getMessage().contains("Invalid username or password.")
 				|| e.getMessage().toLowerCase().contains("account migrated"))
-				return "§4§lWrong password!";
+				return "Â§4Â§lWrong password!";
 			else
-				return "§4§lCannot contact authentication server!";
+				return "Â§4Â§lCannot contact authentication server!";
 			
 		}catch(NullPointerException e)
 		{
-			return "§4§lWrong password!";
+			return "Â§4Â§lWrong password!";
 		}
 	}
 	

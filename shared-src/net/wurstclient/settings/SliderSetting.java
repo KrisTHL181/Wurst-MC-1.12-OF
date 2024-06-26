@@ -1,5 +1,5 @@
 /*
- * Copyright © 2014 - 2018 | Wurst-Imperium | All rights reserved.
+ * Copyright Â© 2014 - 2018 | Wurst-Imperium | All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -310,7 +310,7 @@ public class SliderSetting extends Setting implements SliderLock
 		public static final ValueDisplay INTEGER = (v) -> (int)v + "";
 		public static final ValueDisplay PERCENTAGE =
 			(v) -> (int)(Math.round(v * 1e8) / 1e6) + "%";
-		public static final ValueDisplay DEGREES = (v) -> (int)v + "°";
+		public static final ValueDisplay DEGREES = (v) -> (int)v + "Â°";
 		public static final ValueDisplay NONE = (v) -> "";
 		
 		public String getValueString(double value);

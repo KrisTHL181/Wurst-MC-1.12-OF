@@ -1,5 +1,5 @@
 /*
- * Copyright © 2014 - 2018 | Wurst-Imperium | All rights reserved.
+ * Copyright Â© 2014 - 2018 | Wurst-Imperium | All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -20,7 +20,7 @@ public final class GhostHandMod extends Mod
 	{
 		super("GhostHand",
 			"Allows you to reach specific blocks through walls.\n"
-				+ "Type §l.ghosthand id <block_id>§r or §l.ghosthand name <block_name>§r to specify it.");
+				+ "Type Â§l.ghosthand id <block_id>Â§r or Â§l.ghosthand name <block_name>Â§r to specify it.");
 		setCategory(Category.BLOCKS);
 	}
 	

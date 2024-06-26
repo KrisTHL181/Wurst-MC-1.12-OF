@@ -1,5 +1,5 @@
 /*
- * Copyright © 2014 - 2018 | Wurst-Imperium | All rights reserved.
+ * Copyright Â© 2014 - 2018 | Wurst-Imperium | All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -20,7 +20,7 @@ public class Var extends Tag
 	{
 		super("var", "Defines a new variable.", "<var name>value</var>",
 			"<var link>example.com</var><!--\n"
-				+ "-->Check out my website: §link;");
+				+ "-->Check out my website: Â§link;");
 	}
 	
 	@Override

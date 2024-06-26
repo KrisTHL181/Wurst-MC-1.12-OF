@@ -1,5 +1,5 @@
 /*
- * Copyright © 2014 - 2018 | Wurst-Imperium | All rights reserved.
+ * Copyright Â© 2014 - 2018 | Wurst-Imperium | All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -36,8 +36,8 @@ public final class BuildRandomMod extends Mod
 {
 	private final Random random = new Random();
 	private final ModeSetting mode = new ModeSetting("Mode",
-		"§lFast§r mode can place blocks behind other blocks.\n"
-			+ "§lLegit§r mode can bypass NoCheat+.",
+		"Â§lFastÂ§r mode can place blocks behind other blocks.\n"
+			+ "Â§lLegitÂ§r mode can bypass NoCheat+.",
 		new String[]{"Fast", "Legit"}, 1);
 	
 	private BlockPos lastPos;

@@ -1,5 +1,5 @@
 /*
- * Copyright © 2014 - 2018 | Wurst-Imperium | All rights reserved.
+ * Copyright Â© 2014 - 2018 | Wurst-Imperium | All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -21,8 +21,8 @@ public final class SpeedHackMod extends Mod implements UpdateListener
 	{
 		super("SpeedHack",
 			"Allows you to run roughly 2.5x faster than you would by sprinting and jumping.\n\n"
-				+ "§6§lNotice:§r This mod was patched in NoCheat+ version 3.13.2. It will only bypass older versions\n"
-				+ "of NoCheat+. Type §l/ncp version§r to check the NoCheat+ version of a server.");
+				+ "Â§6Â§lNotice:Â§r This mod was patched in NoCheat+ version 3.13.2. It will only bypass older versions\n"
+				+ "of NoCheat+. Type Â§l/ncp versionÂ§r to check the NoCheat+ version of a server.");
 		setCategory(Category.MOVEMENT);
 	}
 	

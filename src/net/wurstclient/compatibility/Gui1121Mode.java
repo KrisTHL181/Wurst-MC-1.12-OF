@@ -1,5 +1,5 @@
 /*
- * Copyright © 2014 - 2018 | Wurst-Imperium | All rights reserved.
+ * Copyright Â© 2014 - 2018 | Wurst-Imperium | All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -69,7 +69,7 @@ public class Gui1121Mode extends GuiScreen
 			"Minecraft 1.12.X Compatibility Mode", width / 2, 20, 0xffffff);
 		
 		drawCenteredString(fontRendererObj,
-			"§aCurrent version: " + new Version(
+			"Â§aCurrent version: " + new Version(
 				"1.12." + WurstClient.INSTANCE.options.mc112x_compatibility),
 			width / 2, 80, 0xa0a0a0);
 		

@@ -1,5 +1,5 @@
 /*
- * Copyright ฉ 2014 - 2018 | Wurst-Imperium | All rights reserved.
+ * Copyright ยฉ 2014 - 2018 | Wurst-Imperium | All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -27,8 +27,8 @@ import net.wurstclient.utils.MiscUtils;
 public class GuiServerFinder extends GuiScreen
 {
 	private static final String[] stateStrings =
-		{"", "ง2Searching...", "ง2Resolving...", "ง4Unknown Host!",
-			"ง4Cancelled!", "ง2Done!", "ง4An error occurred!"};
+		{"", "ยง2Searching...", "ยง2Resolving...", "ยง4Unknown Host!",
+			"ยง4Cancelled!", "ยง2Done!", "ยง4An error occurred!"};
 	
 	enum ServerFinderState
 	{

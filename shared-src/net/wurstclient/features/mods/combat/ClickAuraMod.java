@@ -1,5 +1,5 @@
 /*
- * Copyright © 2014 - 2018 | Wurst-Imperium | All rights reserved.
+ * Copyright Â© 2014 - 2018 | Wurst-Imperium | All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -81,7 +81,7 @@ public final class ClickAuraMod extends Mod
 	{
 		super("ClickAura",
 			"Automatically attacks the closest valid entity whenever you click.\n\n"
-				+ "§c§lWARNING:§r ClickAuras generally look more suspicious than Killauras and are easier to\n"
+				+ "Â§cÂ§lWARNING:Â§r ClickAuras generally look more suspicious than Killauras and are easier to\n"
 				+ "detect. It is recommended to use Killaura or TriggerBot instead.");
 		setCategory(Category.COMBAT);
 	}

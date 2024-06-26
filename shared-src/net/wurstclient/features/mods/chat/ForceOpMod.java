@@ -1,5 +1,5 @@
 /*
- * Copyright © 2014 - 2018 | Wurst-Imperium | All rights reserved.
+ * Copyright Â© 2014 - 2018 | Wurst-Imperium | All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -430,7 +430,7 @@ public final class ForceOpMod extends Mod implements ChatInputListener
 	public void onReceivedMessage(ChatInputEvent event)
 	{
 		String message = event.getComponent().getUnformattedText();
-		if(message.startsWith("§c[§6Wurst§c]§f "))
+		if(message.startsWith("Â§c[Â§6WurstÂ§c]Â§f "))
 			return;
 		if(message.toLowerCase().contains("wrong")// English
 			|| message.toLowerCase().contains("falsch")// Deutsch!
@@ -442,8 +442,8 @@ public final class ForceOpMod extends Mod implements ChatInputListener
 			gotWrongPWMSG = true;
 		else if(message.toLowerCase().contains("success")// English & Italian
 			|| message.toLowerCase().contains("erfolg")// Deutsch!
-			|| message.toLowerCase().contains("succès")// French
-			|| message.toLowerCase().contains("éxito")// Spanish
+			|| message.toLowerCase().contains("succÃ¨s")// French
+			|| message.toLowerCase().contains("Ã©xito")// Spanish
 		)
 		{
 			String password;

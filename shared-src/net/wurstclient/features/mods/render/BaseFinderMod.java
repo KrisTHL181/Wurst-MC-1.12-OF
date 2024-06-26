@@ -1,5 +1,5 @@
 /*
- * Copyright © 2014 - 2018 | Wurst-Imperium | All rights reserved.
+ * Copyright Â© 2014 - 2018 | Wurst-Imperium | All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -171,7 +171,7 @@ public final class BaseFinderMod extends Mod
 			// show message
 			if(messageTimer <= 0)
 			{
-				ChatUtils.warning("BaseFinder found §lA LOT§r of blocks.");
+				ChatUtils.warning("BaseFinder found Â§lA LOTÂ§r of blocks.");
 				ChatUtils.message(
 					"To prevent lag, it will only show the first 10000 blocks.");
 			}

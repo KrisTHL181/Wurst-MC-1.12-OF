@@ -1,5 +1,5 @@
 /*
- * Copyright © 2014 - 2018 | Wurst-Imperium | All rights reserved.
+ * Copyright Â© 2014 - 2018 | Wurst-Imperium | All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -99,7 +99,7 @@ public final class MassTpaMod extends Mod
 	{
 		String message =
 			event.getComponent().getUnformattedText().toLowerCase();
-		if(message.startsWith("§c[§6wurst§c]"))
+		if(message.startsWith("Â§c[Â§6wurstÂ§c]"))
 			return;
 		
 		if(message.contains("/help") || message.contains("permission"))

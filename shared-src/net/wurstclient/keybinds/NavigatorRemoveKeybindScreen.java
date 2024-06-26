@@ -1,5 +1,5 @@
 /*
- * Copyright © 2014 - 2018 | Wurst-Imperium | All rights reserved.
+ * Copyright Â© 2014 - 2018 | Wurst-Imperium | All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -84,7 +84,7 @@ public class NavigatorRemoveKeybindScreen extends NavigatorScreen
 			return;
 		
 		ArrayList<String> commandsList = new ArrayList<>(Arrays.asList(
-			oldCommands.replace(";", "§").replace("§§", ";").split("§")));
+			oldCommands.replace(";", "Â§").replace("Â§Â§", ";").split("Â§")));
 		
 		String command = existingKeybinds.get(selectedKey).getCommand();
 		while(commandsList.contains(command))
@@ -94,8 +94,8 @@ public class NavigatorRemoveKeybindScreen extends NavigatorScreen
 			WurstClient.INSTANCE.getKeybinds().remove(selectedKey);
 		else
 		{
-			String newCommands = String.join("§", commandsList)
-				.replace(";", "§§").replace("§", ";");
+			String newCommands = String.join("Â§", commandsList)
+				.replace(";", "Â§Â§").replace("Â§", ";");
 			WurstClient.INSTANCE.getKeybinds().add(selectedKey, newCommands);
 		}
 		

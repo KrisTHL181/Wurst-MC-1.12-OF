@@ -1,5 +1,5 @@
 /*
- * Copyright © 2014 - 2018 | Wurst-Imperium | All rights reserved.
+ * Copyright Â© 2014 - 2018 | Wurst-Imperium | All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -185,8 +185,8 @@ public class NavigatorFeatureScreen extends NavigatorScreen
 				Keybind keybind = WurstClient.INSTANCE.getKeybinds().get(i);
 				
 				String commands = keybind.getCommands();
-				commands = commands.replace(";", "§").replace("§§", ";");
-				for(String command : commands.split("§"))
+				commands = commands.replace(";", "Â§").replace("Â§Â§", ";");
+				for(String command : commands.split("Â§"))
 				{
 					command = command.trim();
 					String keybindDescription =

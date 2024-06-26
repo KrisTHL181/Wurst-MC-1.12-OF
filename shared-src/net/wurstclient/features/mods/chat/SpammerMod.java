@@ -1,5 +1,5 @@
 /*
- * Copyright © 2014 - 2018 | Wurst-Imperium | All rights reserved.
+ * Copyright Â© 2014 - 2018 | Wurst-Imperium | All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -337,7 +337,7 @@ public final class SpammerMod extends Mod
 						for(int i = 0; itr.hasNext(); i++)
 						{
 							Map.Entry var = (Map.Entry)itr.next();
-							rowData[i][0] = "§_" + var.getKey() + ";";
+							rowData[i][0] = "Â§_" + var.getKey() + ";";
 							rowData[i][1] = "\"" + var.getValue() + "\"";
 							if(var.getValue().equals(" "))
 								rowData[i][1] = "\" \" (space)";

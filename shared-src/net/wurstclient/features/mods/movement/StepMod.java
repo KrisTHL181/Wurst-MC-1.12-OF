@@ -1,5 +1,5 @@
 /*
- * Copyright © 2014 - 2018 | Wurst-Imperium | All rights reserved.
+ * Copyright Â© 2014 - 2018 | Wurst-Imperium | All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -24,8 +24,8 @@ import net.wurstclient.settings.SliderSetting.ValueDisplay;
 public final class StepMod extends Mod implements UpdateListener
 {
 	private final ModeSetting mode = new ModeSetting("Mode",
-		"§lSimple§r mode can step up multiple blocks (enables Height slider).\n"
-			+ "§lLegit§r mode can bypass NoCheat+.",
+		"Â§lSimpleÂ§r mode can step up multiple blocks (enables Height slider).\n"
+			+ "Â§lLegitÂ§r mode can bypass NoCheat+.",
 		new String[]{"Simple", "Legit"}, 1)
 	{
 		@Override

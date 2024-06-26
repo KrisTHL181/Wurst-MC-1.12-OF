@@ -1,5 +1,5 @@
 /*
- * Copyright © 2014 - 2018 | Wurst-Imperium | All rights reserved.
+ * Copyright Â© 2014 - 2018 | Wurst-Imperium | All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -24,7 +24,7 @@ public class ChatUtils
 	{
 		if(enabled)
 			Minecraft.getMinecraft().ingameGUI.getChatGUI()
-				.printChatMessage(new TextComponentString("§c[§6Wurst§c]§f ")
+				.printChatMessage(new TextComponentString("Â§c[Â§6WurstÂ§c]Â§f ")
 					.appendSibling(component));
 	}
 	
@@ -35,28 +35,28 @@ public class ChatUtils
 	
 	public static void warning(String message)
 	{
-		message("§c[§6§lWARNING§c]§f " + message);
+		message("Â§c[Â§6Â§lWARNINGÂ§c]Â§f " + message);
 	}
 	
 	public static void error(String message)
 	{
-		message("§c[§4§lERROR§c]§f " + message);
+		message("Â§c[Â§4Â§lERRORÂ§c]Â§f " + message);
 	}
 	
 	public static void success(String message)
 	{
-		message("§a[§2§lSUCCESS§a]§f " + message);
+		message("Â§a[Â§2Â§lSUCCESSÂ§a]Â§f " + message);
 	}
 	
 	public static void failure(String message)
 	{
-		message("§c[§4§lFAILURE§c]§f " + message);
+		message("Â§c[Â§4Â§lFAILUREÂ§c]Â§f " + message);
 	}
 	
 	public static void cmd(String message)
 	{
 		Minecraft.getMinecraft().ingameGUI.getChatGUI()
 			.printChatMessage(new TextComponentString(
-				"§c[§6Wurst§c]§f §0§l<§aCMD§0§l>§f " + message));
+				"Â§c[Â§6WurstÂ§c]Â§f Â§0Â§l<Â§aCMDÂ§0Â§l>Â§f " + message));
 	}
 }

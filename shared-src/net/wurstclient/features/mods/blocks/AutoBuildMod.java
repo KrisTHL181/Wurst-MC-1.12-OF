@@ -1,5 +1,5 @@
 /*
- * Copyright © 2014 - 2018 | Wurst-Imperium | All rights reserved.
+ * Copyright Â© 2014 - 2018 | Wurst-Imperium | All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -60,8 +60,8 @@ public final class AutoBuildMod extends Mod
 	implements RightClickListener, UpdateListener, RenderListener
 {
 	private final ModeSetting mode = new ModeSetting("Mode",
-		"§lFast§r mode can place multiple blocks at once.\n"
-			+ "§lLegit§r mode can bypass NoCheat+.",
+		"Â§lFastÂ§r mode can place multiple blocks at once.\n"
+			+ "Â§lLegitÂ§r mode can bypass NoCheat+.",
 		new String[]{"Fast", "Legit"}, 0);
 	private final CheckboxSetting useAi =
 		new CheckboxSetting("Use AI (experimental)", false)

@@ -1,5 +1,5 @@
 /*
- * Copyright © 2014 - 2018 | Wurst-Imperium | All rights reserved.
+ * Copyright Â© 2014 - 2018 | Wurst-Imperium | All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -45,8 +45,8 @@ public final class InstantBunkerMod extends Mod
 	private final ArrayList<BlockPos> positions = new ArrayList<>();
 	
 	private final ModeSetting mode = new ModeSetting("Mode",
-		"§lInstant§r mode places all 57 blocks at once.\n"
-			+ "§lLegit§r mode builds the bunker like a normal player would (bypasses NoCheat+).",
+		"Â§lInstantÂ§r mode places all 57 blocks at once.\n"
+			+ "Â§lLegitÂ§r mode builds the bunker like a normal player would (bypasses NoCheat+).",
 		new String[]{"Instant", "Legit"}, 0);
 	
 	private int blockIndex;

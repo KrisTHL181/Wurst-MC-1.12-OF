@@ -1,5 +1,5 @@
 /*
- * Copyright © 2014 - 2018 | Wurst-Imperium | All rights reserved.
+ * Copyright Â© 2014 - 2018 | Wurst-Imperium | All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -161,7 +161,7 @@ public class EntityUtils
 			"a", "b", "c", "d", "e", "f"};
 		boolean hasKnownColor = false;
 		for(int i = 0; i < 16; i++)
-			if(name.contains("§" + colors[i]))
+			if(name.contains("Â§" + colors[i]))
 			{
 				hasKnownColor = true;
 				if(teamColors[i])

@@ -1,5 +1,5 @@
 /*
- * Copyright © 2014 - 2018 | Wurst-Imperium | All rights reserved.
+ * Copyright Â© 2014 - 2018 | Wurst-Imperium | All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -34,7 +34,7 @@ public final class SearchMod extends Mod
 	public SearchMod()
 	{
 		super("Search", "Helps you to find specific blocks.\n"
-			+ "Use §l.search id <block_id>§r or §l.search name <block_name>§r to specify the block to search\n"
+			+ "Use Â§l.search id <block_id>Â§r or Â§l.search name <block_name>Â§r to specify the block to search\n"
 			+ "for.");
 		setCategory(Category.RENDER);
 	}
@@ -139,7 +139,7 @@ public final class SearchMod extends Mod
 			}
 			if(matchingBlocks.size() >= maxBlocks && notify)
 			{
-				ChatUtils.warning(getName() + " found §lA LOT§r of blocks.");
+				ChatUtils.warning(getName() + " found Â§lA LOTÂ§r of blocks.");
 				ChatUtils.message("To prevent lag, it will only show the first "
 					+ maxBlocks + " blocks.");
 				notify = false;

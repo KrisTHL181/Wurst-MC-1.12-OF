@@ -1,5 +1,5 @@
 /*
- * Copyright © 2014 - 2018 | Wurst-Imperium | All rights reserved.
+ * Copyright Â© 2014 - 2018 | Wurst-Imperium | All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -165,12 +165,12 @@ public abstract class AltEditorScreen extends GuiScreen
 		try(InputStream in = u.toURL().openStream())
 		{
 			Files.copy(in, path);
-			return "§a§lSaved skin as " + skin;
+			return "Â§aÂ§lSaved skin as " + skin;
 			
 		}catch(IOException e)
 		{
 			e.printStackTrace();
-			return "§4§lSkin could not be saved.";
+			return "Â§4Â§lSkin could not be saved.";
 		}
 	}
 	

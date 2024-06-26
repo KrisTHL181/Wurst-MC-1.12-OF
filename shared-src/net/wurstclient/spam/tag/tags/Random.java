@@ -1,5 +1,5 @@
 /*
- * Copyright © 2014 - 2018 | Wurst-Imperium | All rights reserved.
+ * Copyright Â© 2014 - 2018 | Wurst-Imperium | All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -69,7 +69,7 @@ public class Random extends Tag
 				if(ChatAllowedCharacters.isAllowedCharacter((char)nextChar[0]))
 				{
 					String nextString = new String(nextChar)
-						.replace("<", "§_lt;").replace("§", "");
+						.replace("<", "Â§_lt;").replace("Â§", "");
 					result += nextString;
 					i++;
 				}

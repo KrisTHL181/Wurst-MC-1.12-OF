@@ -1,5 +1,5 @@
 /*
- * Copyright ฉ 2014 - 2018 | Wurst-Imperium | All rights reserved.
+ * Copyright ยฉ 2014 - 2018 | Wurst-Imperium | All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -18,7 +18,7 @@ public final class RainbowUiMod extends Mod
 	public RainbowUiMod()
 	{
 		super("RainbowUI",
-			"งcMงaaง9kงceงas ง9eงcvงaeง9rงcyงatง9hงciงanง9g งccงaoง9lงcoงarง9fงcuงalง9.");
+			"ยงcMยงaaยง9kยงceยงas ยง9eยงcvยงaeยง9rยงcyยงatยง9hยงciยงanยง9g ยงccยงaoยง9lยงcoยงarยง9fยงcuยงalยง9.");
 		setCategory(Category.FUN);
 	}
 }

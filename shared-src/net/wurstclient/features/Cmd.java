@@ -1,5 +1,5 @@
 /*
- * Copyright © 2014 - 2018 | Wurst-Imperium | All rights reserved.
+ * Copyright Â© 2014 - 2018 | Wurst-Imperium | All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -108,7 +108,7 @@ public abstract class Cmd extends Feature
 	
 	public final void printSyntax()
 	{
-		String output = "§o." + name + "§r";
+		String output = "Â§o." + name + "Â§r";
 		if(syntax.length != 0)
 		{
 			output += " " + syntax[0];
@@ -216,7 +216,7 @@ public abstract class Cmd extends Feature
 		public void printToChat()
 		{
 			if(getMessage() != null)
-				ChatUtils.message("§4Syntax error:§r " + getMessage());
+				ChatUtils.message("Â§4Syntax error:Â§r " + getMessage());
 			
 			printSyntax();
 		}

@@ -1,5 +1,5 @@
 /*
- * Copyright © 2014 - 2018 | Wurst-Imperium | All rights reserved.
+ * Copyright Â© 2014 - 2018 | Wurst-Imperium | All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -95,7 +95,7 @@ public final class AutoLeaveMod extends Mod implements UpdateListener
 			break;
 			
 			case 1:
-			WConnection.sendPacket(new CPacketChatMessage("§"));
+			WConnection.sendPacket(new CPacketChatMessage("Â§"));
 			break;
 			
 			case 2:

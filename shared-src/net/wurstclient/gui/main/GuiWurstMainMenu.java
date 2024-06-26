@@ -1,5 +1,5 @@
 /*
- * Copyright © 2014 - 2018 | Wurst-Imperium | All rights reserved.
+ * Copyright Â© 2014 - 2018 | Wurst-Imperium | All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -266,7 +266,7 @@ public class GuiWurstMainMenu extends GuiMainMenu
 		drawString(fontRendererObj, "Copyright Alexander01998", 8, 18,
 			0xffffff);
 		drawString(fontRendererObj, "All rights reserved.", 8, 28, 0xffffff);
-		drawCenteredString(fontRendererObj, "§nwww.WurstClient.net", width / 2,
+		drawCenteredString(fontRendererObj, "Â§nwww.WurstClient.net", width / 2,
 			height - 26, 0xffffff);
 		
 		// buttons
@@ -292,7 +292,7 @@ public class GuiWurstMainMenu extends GuiMainMenu
 		super.mouseClicked(mouseX, mouseY, mouseButton);
 		
 		// website link
-		int linkWidth = fontRendererObj.getStringWidth("§nwww.WurstClient.net");
+		int linkWidth = fontRendererObj.getStringWidth("Â§nwww.WurstClient.net");
 		if(mouseButton == 0 && mouseY >= height - 26 && mouseY < height - 16
 			&& mouseX > width / 2 - linkWidth / 2
 			&& mouseX < width / 2 + linkWidth / 2)

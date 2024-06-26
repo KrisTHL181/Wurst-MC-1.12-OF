@@ -1,5 +1,5 @@
 /*
- * Copyright © 2014 - 2018 | Wurst-Imperium | All rights reserved.
+ * Copyright Â© 2014 - 2018 | Wurst-Imperium | All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -33,7 +33,7 @@ public final class JetpackMod extends Mod implements UpdateListener
 	public JetpackMod()
 	{
 		super("Jetpack", "Allows you to fly as if you had a jetpack.\n\n"
-			+ "§c§lWARNING:§r You will take fall damage if you don't use NoFall.");
+			+ "Â§cÂ§lWARNING:Â§r You will take fall damage if you don't use NoFall.");
 		setCategory(Category.MOVEMENT);
 	}
 	

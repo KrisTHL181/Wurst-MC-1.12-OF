@@ -1,5 +1,5 @@
 /*
- * Copyright © 2014 - 2018 | Wurst-Imperium | All rights reserved.
+ * Copyright Â© 2014 - 2018 | Wurst-Imperium | All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -30,17 +30,17 @@ public abstract class ExceptionWithDefaultHelp extends SpamException
 			+ "<td>Declaration:</td>"
 			+ "<td><code bgcolor=\"#000000\" color=\"#00ff00\">&lt;var name&gt;value&lt;/var&gt;</code></td>"
 			+ "</tr><tr>" + "<td>Usage: </td>"
-			+ "<td><code bgcolor=\"#000000\" color=\"#00ff00\">§name;</code></td>"
+			+ "<td><code bgcolor=\"#000000\" color=\"#00ff00\">Â§name;</code></td>"
 			+ "</tr><tr>" + "<td>Usage of pre-defined variables: </td>"
-			+ "<td><code bgcolor=\"#000000\" color=\"#00ff00\">§_name;</code></td>"
+			+ "<td><code bgcolor=\"#000000\" color=\"#00ff00\">Â§_name;</code></td>"
 			+ "</tr></table>"
 			+ "<p>A list of all pre-defined variables can be found in the Help menu.</p>"
 			+ "<h2>Syntax for comments</h2>"
 			+ "<div bgcolor=\"#000000\" color=\"#00ff00\">"
 			+ "<code>&lt;!-- comment --&gt;</code>" + "</div>"
 			+ "<h2>How to spam &lt; and &gt;</h2>"
-			+ "<p>If you don't care about WSPAM and just want to spam the &lt; and &gt; characters, you can do that by typing <code bgcolor=\"#000000\" color=\"#00ff00\">§_lt;</code> and <code bgcolor=\"#000000\" color=\"#00ff00\">§_gt;</code>.</p>"
-			+ "<p>Note that you can't spam the § character because sending it would instantly kick you from the server.</p>"
+			+ "<p>If you don't care about WSPAM and just want to spam the &lt; and &gt; characters, you can do that by typing <code bgcolor=\"#000000\" color=\"#00ff00\">Â§_lt;</code> and <code bgcolor=\"#000000\" color=\"#00ff00\">Â§_gt;</code>.</p>"
+			+ "<p>Note that you can't spam the Â§ character because sending it would instantly kick you from the server.</p>"
 			+ "</body></html>";
 	}
 }

@@ -1,5 +1,5 @@
 /*
- * Copyright © 2014 - 2018 | Wurst-Imperium | All rights reserved.
+ * Copyright Â© 2014 - 2018 | Wurst-Imperium | All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -173,11 +173,11 @@ public final class GuiAltList extends GuiSlot
 			y + 3, 10526880);
 		
 		// tags
-		String tags = alt.isCracked() ? "§8cracked" : "§2premium";
+		String tags = alt.isCracked() ? "Â§8cracked" : "Â§2premium";
 		if(alt.isStarred())
-			tags += "§r, §estarred";
+			tags += "Â§r, Â§estarred";
 		if(alt.isUnchecked())
-			tags += "§r, §cunchecked";
+			tags += "Â§r, Â§cunchecked";
 		mc.fontRendererObj.drawString(tags, x + 31, y + 15, 10526880);
 	}
 }

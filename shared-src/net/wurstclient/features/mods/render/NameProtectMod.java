@@ -1,5 +1,5 @@
 /*
- * Copyright © 2014 - 2018 | Wurst-Imperium | All rights reserved.
+ * Copyright Â© 2014 - 2018 | Wurst-Imperium | All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -32,17 +32,17 @@ public final class NameProtectMod extends Mod
 		
 		String me = Minecraft.getMinecraft().session.getUsername();
 		if(string.contains(me))
-			return string.replace(me, "§oMe§r");
+			return string.replace(me, "Â§oMeÂ§r");
 		
 		int i = 0;
 		for(NetworkPlayerInfo info : WMinecraft.getConnection()
 			.getPlayerInfoMap())
 		{
 			i++;
-			String name = info.getPlayerNameForReal().replaceAll("§\\w", "");
+			String name = info.getPlayerNameForReal().replaceAll("Â§\\w", "");
 			
 			if(string.contains(name))
-				return string.replace(name, "§oPlayer" + i + "§r");
+				return string.replace(name, "Â§oPlayer" + i + "Â§r");
 		}
 		for(EntityPlayer player : WMinecraft.getWorld().playerEntities)
 		{
@@ -50,7 +50,7 @@ public final class NameProtectMod extends Mod
 			String name = player.getName();
 			
 			if(string.contains(name))
-				return string.replace(name, "§oPlayer" + i + "§r");
+				return string.replace(name, "Â§oPlayer" + i + "Â§r");
 		}
 		
 		return string;

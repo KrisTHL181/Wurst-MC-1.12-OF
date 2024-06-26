@@ -1,5 +1,5 @@
 /*
- * Copyright © 2014 - 2018 | Wurst-Imperium | All rights reserved.
+ * Copyright Â© 2014 - 2018 | Wurst-Imperium | All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -147,9 +147,9 @@ public class NavigatorNewKeybindScreen extends NavigatorScreen
 				{
 					text +=
 						"\n\nWARNING: This key is already bound to the following command(s):";
-					commands = commands.replace(";", "§").replace("§§", ";");
+					commands = commands.replace(";", "Â§").replace("Â§Â§", ";");
 					
-					for(String cmd : commands.split("§"))
+					for(String cmd : commands.split("Â§"))
 						text += "\n- " + cmd;
 				}
 			}

@@ -1,5 +1,5 @@
 /*
- * Copyright © 2014 - 2018 | Wurst-Imperium | All rights reserved.
+ * Copyright Â© 2014 - 2018 | Wurst-Imperium | All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -39,8 +39,8 @@ public final class BonemealAuraMod extends Mod implements UpdateListener
 	private final SliderSetting range =
 		new SliderSetting("Range", 4.25, 1, 6, 0.05, ValueDisplay.DECIMAL);
 	private final ModeSetting mode = new ModeSetting("Mode",
-		"§lFast§r mode can use bone meal on multiple blocks at once.\n"
-			+ "§lLegit§r mode can bypass NoCheat+.",
+		"Â§lFastÂ§r mode can use bone meal on multiple blocks at once.\n"
+			+ "Â§lLegitÂ§r mode can bypass NoCheat+.",
 		new String[]{"Fast", "Legit"}, 1);
 	
 	private final CheckboxSetting saplings =

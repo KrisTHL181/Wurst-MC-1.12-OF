@@ -1,5 +1,5 @@
 /*
- * Copyright © 2014 - 2018 | Wurst-Imperium | All rights reserved.
+ * Copyright Â© 2014 - 2018 | Wurst-Imperium | All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -18,9 +18,9 @@ import net.wurstclient.settings.ModeSetting;
 public final class ModListSpf extends Spf
 {
 	private final ModeSetting mode = new ModeSetting("Mode",
-		"§lAuto§r mode renders the whole list if it fits onto the screen.\n"
-			+ "§lCount§r mode only renders the number of active mods.\n"
-			+ "§lHidden§r mode renders nothing.",
+		"Â§lAutoÂ§r mode renders the whole list if it fits onto the screen.\n"
+			+ "Â§lCountÂ§r mode only renders the number of active mods.\n"
+			+ "Â§lHiddenÂ§r mode renders nothing.",
 		new String[]{"Auto", "Count", "Hidden"}, 0)
 	{
 		@Override
@@ -40,7 +40,7 @@ public final class ModListSpf extends Spf
 	public ModListSpf()
 	{
 		super("ModList", "Shows a list of active mods on the screen.\n"
-			+ "The §lLeft§r position should only be used while TabGui is disabled.");
+			+ "The Â§lLeftÂ§r position should only be used while TabGui is disabled.");
 		
 		addSetting(mode);
 		addSetting(position);

@@ -1,5 +1,5 @@
 /*
- * Copyright © 2014 - 2018 | Wurst-Imperium | All rights reserved.
+ * Copyright Â© 2014 - 2018 | Wurst-Imperium | All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -39,7 +39,7 @@ public class GuiCleanUp extends GuiScreen
 		"All servers where the name starts with \"Grief me\"\n"
 			+ "Useful for removing servers found by ServerFinder.",
 		"This will completely clear your server\n"
-			+ "list. §cUse with caution!§r",
+			+ "list. Â§cUse with caution!Â§r",
 		"Renames your servers to \"Grief me #1\",\n"
 			+ "\"Grief me #2\", etc.",};
 	
@@ -82,7 +82,7 @@ public class GuiCleanUp extends GuiScreen
 			"\"Grief me\" Servers: "
 				+ removeOrKeep(WurstClient.INSTANCE.options.cleanupGriefMe)));
 		buttonList.add(new GuiButton(6, width / 2 - 100, height / 4 + 72 + 12,
-			"§cRemove all Servers: " + yesOrNo(removeAll)));
+			"Â§cRemove all Servers: " + yesOrNo(removeAll)));
 		buttonList.add(new GuiButton(7, width / 2 - 100, height / 4 + 96 + 12,
 			"Rename all Servers: "
 				+ yesOrNo(WurstClient.INSTANCE.options.cleanupRename)));
@@ -210,7 +210,7 @@ public class GuiCleanUp extends GuiScreen
 			{// Remove
 				removeAll = !removeAll;
 				clickedButton.displayString =
-					"§cRemove all Servers: " + yesOrNo(removeAll);
+					"Â§cRemove all Servers: " + yesOrNo(removeAll);
 				WurstClient.INSTANCE.analytics.trackEvent("clean up",
 					"remove all servers", yesOrNo(removeAll));
 			}else if(clickedButton.id == 7)
